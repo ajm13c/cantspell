@@ -147,8 +147,7 @@ if __name__ == "__main__":
 			raise SystemExit
 		findWords(word)
 
-		if singleUse:
-			raise SystemExit
+		raise SystemExit
 
 	while True:
 		try:
